@@ -67,17 +67,18 @@ nav {
 	transition-duration: 0.8s;
 }
 
-.jobSide {
+.sideBar {
 	width: 19%;
 	left: 0;
 	margin-left: 1%;
-	position: fixed;
+    position: fixed;
+    overflow: auto;
 	background: white;
 	height: fit-content;
 	border: solid 1px #818181;
 }
 
-.jobSide select {
+.sideBar select {
 	width: 100%;
 	padding: 10px;
 	font-size: 15px;
@@ -131,7 +132,7 @@ option {
 	width: 75%;
 	border-top: solid #000000a1 1px;
 }
-.jobContainer {
+.singleCase {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -149,7 +150,7 @@ option {
 	border: solid #818181 1px;
 	padding: 0px 0px 4px;
 }
-.jobHeadline {
+.caseHeadline {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -168,7 +169,7 @@ option {
 	box-shadow: 6px 4px 11px 0px #818181cc;
 	padding: 6px 0px;
 }
-.jobHead {
+.courtAccuser {
 	font-family: sans-serif;
 	font-size: 21px;
 	margin-left: 1%;
@@ -186,7 +187,7 @@ option {
 .datePosted {
 	padding: 0px 12px;
 }
-.jobDetail {
+.caseDetail {
 	/* color: white; */
 	display: flex;
 	flex: 1;
@@ -201,114 +202,27 @@ option {
 	justify-content: space-evenly;
 	width: 100%;
 }
-.jobTasks {
-	padding: 0;
-}
-.jobTasks li {
-	font-size: 20px;
-	list-style: none;
-	margin: 9px 6px;
-}
-.jobRoles p {
-	padding: 5px;
-	color: black;
-	font-size: 15px;
+.button {
+	background: black;
+	color: white;
+	padding: 4px;
 }
 
-.jobRoles {
-	width: 50%;
-}
-
-.jobRoles h3 {
-	text-align: center;
-	font-family: averia libre;
-	color: #818181;
-	text-shadow: 6px 1px 20px #818181db;
-}
-.button{
-    background: black;
-    color: white;
-    padding: 4px;
-}
-/* .dropdown:hover .dropdown-content {
-	display: block !important;
-} */
-/* 
-@media (min-width: 900px) {
-	.navMenu {
-		display: inline-block !important;
-		height: 100%;
-	}
-}
-
-@media (max-width: 900px) {
-	.navMenu {
-		position: fixed;
-		z-index: 1;
-		top: 0;
-		right: 0;
-		background-color: #818181;
-		width: 195px;
-		padding-top: 60px;
-		overflow-y: auto;
-		height: 100%;
-	}
-
-	.navMenu a {
-		padding: 9px 8px 15px 32px;
-		text-decoration: none;
-		color: white;
-		display: block;
-		transition: 0.3s;
-	}
-
-	.navMenu a:hover,
-	.offcanvas a:focus {
-		color: #d1d1c1;
-	} */
-
-/* .navMenu .closebtn {
-		position: absolute;
-		top: 0;
-		right: 25px;
-		font-size: 36px;
-		margin-left: 50px;
-	} */
-
-/* #menuButton {
-		display: inline-block;
-	}
-
-	.dropdown-content {
-		position: relative;
-	}
-} */
-/* @media screen and (max-height: 450px) {
-	.navMenu {
-		padding-top: 15px;
-	}
-
-	.navMenu a {
-		font-size: 18px;
-	}
-} */
-
-
-.employeeAction {
-    width: 97%;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-between;
+.buttonsContainer {
+	width: 97%;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .button:hover {
-    color: white;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    border-radius: 4px;
-    transform: rotate(-1deg);
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 4px;
+	transform: rotate(-1deg);
 }
 
-.jobDetail p {
-    margin: 16px 19px;
+.caseDetail p {
+	margin: 16px 19px;
 }
