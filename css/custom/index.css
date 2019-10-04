@@ -174,6 +174,7 @@ option {
 	font-size: 21px;
 	margin-left: 1%;
 	display: -webkit-box;
+	color: gray;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -moz-flex;
@@ -186,6 +187,7 @@ option {
 }
 .datePosted {
 	padding: 0px 12px;
+	color: gray;
 }
 .caseDetail {
 	/* color: white; */
@@ -225,4 +227,5 @@ option {
 
 .caseDetail p {
 	margin: 16px 19px;
+	color: gray;
 }
