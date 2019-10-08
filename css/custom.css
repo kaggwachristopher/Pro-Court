@@ -5,4 +5,20 @@
 }
 .form-container{
   border: solid 2px #00000061;
+  width: 60%;
+  padding: 14px 18px;
 }
+.main{
+  
+display: flex;
+  
+justify-content: center;
+}
+.buttons{
+  text-align: center
+}
+.sub{
+  
+display: flex;
+  
+justify-content: space-around;
