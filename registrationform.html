@@ -7,26 +7,32 @@
     <title>procourt Registration form</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="icons/css/all.css" />
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 form-container">
+        
+
+    <div class="">
+        <div class="main">
+            <div class="form-container">
+                    <h3>Account Registration</h3>
                  <form>
+                     <div class="sub">
                     <div class="form-group">
-                        <label for="Name" class="col-sm-2 col-form-label">Name</label>
-                        <div class="col-sm-10">
+                        <label for="Name" class="">Name</label>
+                        <div class="">
                             <input type="text" class="form-control" id="Name" value="Name">
                         </div>
                     </div>
                     <div class="form-group">
-                         <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
+                         <label for="staticEmail" class="">Email</label>
+                        <div class="">
                             <input type="email" class="form-control" id="staticEmail" value="email@example.com">
                         </div>
                     </div>
-
+                </div>
+                <div class="sub">
                     <div class="form-group">
                             <label for="governmentagency">Government Agency</label>
                             <input type="text" class="form-control" id="governmentagency" placeholder="government agency">
@@ -36,7 +42,7 @@
                             <label for="NIN">National Identification Number</label>
                             <input type="text" class="form-control" id="NIN" placeholder="NIN">
                     </div>
-
+                </div>
                     <div class="form-group">
                             <label for="officerposithion">Officer Position</label>
                             <select single class="form-control" id="exampleFormControlSelect2">
@@ -60,34 +66,34 @@
                     
 
 
-                    <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
+                    <div class="form-group">
+                        <label for="inputPassword" class="">Password</label>
+                        <div class="">
                             <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Confirm Password</label>
-                        <div class="col-sm-10">
+                    <div class="form-group">
+                        <label for="inputPassword" class="">Confirm Password</label>
+                        <div class="">
                             <input type="password" class="form-control" id="confirminputPassword" placeholder="confirmPassword">
                         </div>
-                    </div>            
+                    </div> 
+                   
+                                
+                                <div class="buttons">
+                                    <button class="btn btn-primary mx-5" type="submit"><i class="fas fa-arrow-left"></i> Return to Login</button>
+                                
+                                    <button class="btn btn-primary mx-5" type="submit">Submit</button>
+                                </div>
+                                      
+                                   
                  </form>
             </div>
-            <div class="col-sm-4 form-container">
-                
-            </div>
-            <div class="col-sm-4 form-container">
-                <button class="btn btn-primary" type="submit">Return to Login</button>
-            </div>
-            <div class="col-sm-4 form-container">
-                
-                <button class="btn btn-primary" type="submit">Submit</button>
-            </div>
-                  
+            
         </div>
 
     </div>
+
    
 
 
